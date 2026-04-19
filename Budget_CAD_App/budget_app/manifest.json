@@ -1,0 +1,47 @@
+{
+  "name": "BudgetCAD — Gestionnaire de budget personnel",
+  "short_name": "BudgetCAD",
+  "description": "Application de gestion budgétaire personnelle en dollar canadien. Suivi des dépenses, graphiques automatiques, alertes budget, épargne.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#070B14",
+  "theme_color": "#0A0F1E",
+  "orientation": "any",
+  "lang": "fr-CA",
+  "dir": "ltr",
+  "scope": "/",
+  "categories": ["finance", "productivity", "utilities"],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouvelle dépense",
+      "short_name": "+ Dépense",
+      "description": "Ajouter rapidement une dépense",
+      "url": "/index.html#nouvelle-depense",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Voir le tableau de bord",
+      "url": "/index.html",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
